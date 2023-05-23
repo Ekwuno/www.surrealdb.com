@@ -18,7 +18,7 @@ header {
 		-webkit-backdrop-filter:blur(10px);
 		-moz-backdrop-filter:blur(10px);
 		-ms-backdrop-filter:blur(10px);
-		backdrop-filter:blur(10px);
+		backdrop-filter:blur(20px);
 	}
 
 	content {
@@ -29,7 +29,7 @@ header {
 		justify-content: space-between;
 
 		@include media(max-width-1301) {
-			padding-top:20px;
+			padding-top:14px;
 		}
 
 		> div {
